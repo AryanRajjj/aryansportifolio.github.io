@@ -197,7 +197,7 @@ h1.about-title span{
 	font-size: 4rem;
 	position: relative;
 	color: transparent;
-	animation: text_reveal 0.5s ease forwards;
+	animation: text_reveal 0.9s ease forwards;
 	animation-delay: 1s;
 }
 #hero h1:nth-child(1) {
@@ -279,9 +279,8 @@ h1.about-title span{
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-color: #0beef9;
-	background-image: linear-gradient(315deg, cyan 0%, #c6d5e2 74%);
-	color: rgb(0, 0, 0);
+	background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+	color: rgb(255, 255, 255);
 }
 #projects .project-info h1 {
 	font-size: 4rem;
@@ -293,7 +292,7 @@ h1.about-title span{
 	margin-top: 10px;
 }
 #projects .project-info p {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 #projects .project-img {
 	flex-basis: 50%;
@@ -325,6 +324,7 @@ h1.about-title span{
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
+	color: white;
 	padding: 100px 20px;
 }
 #about .col-left {
